@@ -1,0 +1,7 @@
+cat(sprintf("pt2_5=%.15g\n", pt(2,5)))
+cat(sprintf("pt1959_50=%.15g\n", pt(1.959963985,50)))
+cat(sprintf("pt25705_10=%.15g\n", pt(2.570581728,10)))
+cat(sprintf("qt975_5=%.15g\n", qt(0.975,5)))
+cat(sprintf("qt995_10=%.15g\n", qt(0.995,10)))
+cat(sprintf("qt95_3=%.15g\n", qt(0.95,3)))
+cat(sprintf("qt025_7=%.15g\n", qt(0.025,7)))

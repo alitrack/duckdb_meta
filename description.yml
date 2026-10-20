@@ -1,0 +1,15 @@
+extension:
+  name: meta_ext
+  description: "Classical meta-analysis (metafor-compatible tau2 estimators REML/ML/DL/HS/SJ/EB/PM/PMM, z test, forest weights)"
+  version: 0.1.0
+  language: Rust
+  build: cargo
+  license: MIT
+  excluded_platforms: "wasm_mvp;wasm_eh;wasm_threads;linux_amd64_musl;windows_amd64_rtools;windows_amd64_mingw"
+  requires_toolchains: "rust"
+  maintainers:
+    - alitrack
+
+repo:
+  github: alitrack/duckdb_meta
+  ref: refs/tags/v0.1.0
